@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bubble Shooter — Dual Fire</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <div class="hud">
+    <div class="preview">
+      <span>Current</span>
+      <canvas id="curr" width="36" height="36"></canvas>
+    </div>
+    <div class="preview">
+      <span>Next</span>
+      <canvas id="next" width="36" height="36"></canvas>
+    </div>
+    <div class="hint">Click or tap to shoot — fires <b>two</b> bubbles at once.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
